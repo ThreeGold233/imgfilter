@@ -3,7 +3,12 @@
 	padding: 0;
 }
 body{
-	background: grey;
+	background:#F8F8F5;
+}
+p{
+	display: inline;
+	position: relative;
+	top:-280px;
 }
 .canvas{
 	
