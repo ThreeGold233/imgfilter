@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/filter.css">
+</head>
+<body>
+	<div class="canvas">
+		<canvas id="canvasa"></canvas>
+		<canvas id="canvasb"></canvas>
+	</div>
+
+	<div class="button">
+		<button id="GreyEffect">灰度滤镜</button>
+		<button id="black">黑白滤镜</button>
+		<button id="reverseEffect">反色滤镜</button>
+		<button id="blurEffect">模糊滤镜</button>
+		<button id="mosaicEffect">马赛克滤镜</button>
+		<button id="cameo">浮雕效果</button>
+	</div>
+
+<input type="file" name="imgOne" id="imgOne1" onchange="preImg(this.id,'imgPre');" />   
+
+<script type="text/javascript" src="js/filter.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: grey;
+}
+.canvas{
+	
+	position: relative;
+	top: 30px;
+	text-align:center;
+}
+#canvasa{
+	width:400px;
+	height:300px;
+	background: white;
+}
+#canvasb{
+	width:400px;
+	height:300px;
+	background: white;
+
+}
+.button{
+	width: 500px;
+	position: relative;
+	top: 90px;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
+#imgOne1{
+	display: block;
+	width: 200px;
+	position: relative;
+	top: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+button{
+	background: grey;
+	border: none;
+	height: 30px;
+	width: 70px;
+	cursor:pointer;
+}
